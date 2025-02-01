@@ -11,7 +11,7 @@ const skills = [
   {
     category: "Frameworks and Libraries",
     icon: "🛠️",
-    items: ["React", "Nextjs", "Redux", "Node.js", "Express.js", "TailwindCSS", "FastAPI", "Vue.js", "Nuxt.js"],
+    items: ["React", "Nextjs", "Redux", "Node.js", "Express.js", "TailwindCSS", "FastAPI", "Vue.js", "Nuxt.js", "StoryBook", "Bootstrap", "TanStack", "Axios", "Leaflet"],
   },
   {
     category: "Personal",
@@ -21,7 +21,6 @@ const skills = [
       "Leadership",
       "Documentation",
       "Attention to detail",
-      "Empathy",
       "Problem-Solving",
       "Adaptability",
     ],

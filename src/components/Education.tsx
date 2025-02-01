@@ -49,7 +49,6 @@ export default function Education() {
               <ul className="list-disc list-inside text-gray-300">
                 <li>One President&apos;s Award</li>
                 <li>Two Dean&apos;s Awards</li>
-                <li>Maintained high GPA throughout the program</li>
               </ul>
             </div>
             <div className="bg-gray-800 rounded-lg p-6">
@@ -60,9 +59,12 @@ export default function Education() {
               <ul className="list-disc list-inside text-gray-300">
                 <li>System Analysis & Design</li>
                 <li>Software Design & Models</li>
+                <li>Advanced Programming</li>
+                <li>Data Structures & Algorithms</li>
                 <li>Software Testing</li>
                 <li>Enterprise Software Architecture</li>
                 <li>Distributed Computing</li>
+                <li>Concurrent & Parallel Programming</li>
               </ul>
             </div>
           </motion.div>

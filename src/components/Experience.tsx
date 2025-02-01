@@ -10,7 +10,7 @@ const experiences = [
     duration: "07/2024 - Present",
     location: "Erbil, Iraq",
     responsibilities: [
-      "Implemented extendable and dynamic UI components using Typescript generic types to help solve the problem of writing repetitive code.",
+      "Implemented an extendable and dynamic UI components using Typescript generic types to help solve the problem of writing repetitive code.",
       "Contributed to developing a grant-winning system from Orange Corner, showcasing my ability to deliver impactful solutions that align with business goals and meet user expectations using React.js and Typescript with a focus on performance by hitting a score of more than 90% on Google Lighthouse Analytics.",
       "Focused on accessibility and semantics while building components and achieved a score of 100% on the Google Lighthouse Analytics accessibility section.",
       "Created generic functions for the different API requests using Axios and TanStack to make fetching, creating, modifying, and deleting data easier for the developer.",
@@ -31,7 +31,7 @@ const experiences = [
   },
   {
     company: "Zinzo – Ecommerce Performance Optimisation",
-    position: "Junior Developer",
+    position: "Web Developer - Internship",
     duration: "12/2023 - 03/2024",
     location: "Remote",
     responsibilities: [

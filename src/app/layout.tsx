@@ -4,12 +4,13 @@ import type React from "react"
 import CustomCursor from "@/components/CustomCursor"
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
+import type { Metadata } from "next";
 
 const inter = Inter({ subsets: ["latin"] })
 
-export const metadata = {
+export const metadata: Metadata = {
   title: "Ridha Al-Furaiji",
-  description: "Personal portfolio of Ridha Al-Furaiji, a software engineer and full stack web developer",
+  description: "Personal portfolio of Ridha Al-Furaiji, a software engineer and full stack web developer"
 }
 
 export default function RootLayout({

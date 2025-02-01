@@ -14,7 +14,7 @@ export default function Footer() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5 }}
           >
-            <p className="text-gray-400">&copy; 2025 Ridha Muneer Kamil. All rights reserved.</p>
+            <p className="text-gray-400">&copy; 2025 Ridha Al-Furaiji. All rights reserved.</p>
           </motion.div>
           <motion.div
             className="flex space-x-6"
