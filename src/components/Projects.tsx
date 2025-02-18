@@ -29,6 +29,14 @@ const projects = [
     github: "https://github.com/RidhaMuneer/social-core",
     live: null,
   },
+  {
+    title: "Social Media App Sample",
+    description: "It utilizes the Social Media API to create a user-friendly and minimalistic social media app. (Under Development)",
+    technologies: ["React", "Typescript", "Axios", "TailwindCSS", "Vite"],
+    image: "/social-ui.png",
+    github: "https://github.com/RidhaMuneer/social-ui",
+    live: null,
+  },
 ]
 
 export default function Projects() {
