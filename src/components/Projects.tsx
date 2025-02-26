@@ -24,7 +24,7 @@ const projects = [
   {
     title: "Social Media API",
     description: "This RESTful API allows users to interact on a social media platform. Users can post content, like posts, follow other users, and receive follow suggestions.",
-    technologies: ["Python", "FastAPI", "PostgreSQL", "AWS S3", "JWT"],
+    technologies: ["Python", "FastAPI", "PostgreSQL", "AWS S3", "JWT", "Redis"],
     image: "/social-core.png",
     github: "https://github.com/RidhaMuneer/social-core",
     live: null,
@@ -32,7 +32,7 @@ const projects = [
   {
     title: "Social Media App Sample",
     description: "It utilizes the Social Media API to create a user-friendly and minimalistic social media app. (Under Development)",
-    technologies: ["React", "Typescript", "Axios", "TailwindCSS", "Vite"],
+    technologies: ["React", "Typescript", "Axios", "TailwindCSS", "Vite", "Websockets"],
     image: "/social-ui.png",
     github: "https://github.com/RidhaMuneer/social-ui",
     live: null,
@@ -60,7 +60,7 @@ export default function Projects() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.1 }}
             >
-              <Image src={project.image || "/placeholder-image.webp"} alt={project.title} className="w-full h-48 object-cover" width={400} height={300} />
+              <Image src={project.image || "/placeholder-image.webp"} alt={project.title} className="w-full max-h-64 object-cover" width={400} height={300} />
               <div className="p-6">
                 <h3 className="text-xl font-semibold mb-2 text-blue-400">{project.title}</h3>
                 <p className="text-gray-400 mb-4">{project.description}</p>
