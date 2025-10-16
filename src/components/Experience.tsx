@@ -5,37 +5,33 @@ import { FaBriefcase, FaCalendar, FaMapMarkerAlt } from "react-icons/fa"
 
 const experiences = [
   {
-    company: "Gula Pharmaceutical Management System | 51 Labs Incubatee",
-    position: "Co-Founder and Front-end Engineer",
-    duration: "07/2024 - Present",
-    location: "Erbil, Iraq",
+    company: "White Label Solutions",
+    position: "Frontend Engineer",
+    duration: "03/2025 - Present",
+    location: "Remote",
     responsibilities: [
-      "Implemented an extendable and dynamic UI components using Typescript generic types to help solve the problem of writing repetitive code.",
-      "Contributed to developing a grant-winning system from Orange Corner, showcasing my ability to deliver impactful solutions that align with business goals and meet user expectations using React.js and Typescript with a focus on performance by hitting a score of more than 90% on Google Lighthouse Analytics.",
-      "Focused on accessibility and semantics while building components and achieved a score of 100% on the Google Lighthouse Analytics accessibility section.",
-      "Created generic functions for the different API requests using Axios and TanStack to make fetching, creating, modifying, and deleting data easier for the developer.",
+      "Developed and maintained React.js and Next.js applications with TypeScript, focusing on dashboards and showcase websites (e.g., Foton, Jac).",
+      "Implemented Algolia Analytics and Firebase push notifications in an e-commerce dashboard, improving search analysis and user engagement.",
+      "Designed and developed a generic, reusable page component with dynamic columns, filters, and action buttons – similar to Laravel’s Filament – to accelerate feature delivery across multiple projects.",
+      "Enhanced the e-commerce API in Laravel by helping design modules and database tables, implementing models, migrations, and controllers, and fixing critical bugs to ensure a scalable backend architecture.",
+      "Developed a custom CRM dashboard with Apollo search integration, enabling fast, flexible, and eﬃcient data retrieval across complex datasets, and improving overall search performance and user experience.",
+      "Integrated Spatie packages for role-based permissions and image uploads, ensuring secure and scalable content management.",
+      "Worked on a Filament-based admin dashboard, extending and customizing resources, forms, and tables to meet project requirements.",
     ],
   },
   {
     company: "Zinzo – Ecommerce Performance Optimisation",
-    position: "Junior Developer",
-    duration: "03/2024 - 07/2024",
+    position: "Junior Developer - Internship",
+    duration: "12/2023 - 07/2024",
     location: "Remote",
     responsibilities: [
-      "Worked on documenting UI components using Storybook to ensure writing well-designed components' states and styles while having a great experience using those components.",
-      "Developed a client-facing web app to address the challenge of slow e-commerce, successfully migrating the app from Shopify to a headless application while prioritizing performance, application load times, and Search Engine Optimisation by hitting a score of more than 90% on Google Lighthouse Analytics using React.js.",
+      "Documented UI components using Storybook to ensure writing well-designed components’ states and styles while having a great experience using those components.",
+      "Developed a client-facing web app to address the challenge of slow e-commerce, successfully migrating the app from Shopify to a headless application while prioritizing performance, application load times, and Search Engine Optimisation by hitting a score of more than 90% on Google Lighthouse Analytics using React.js. ",
       "Collaborated with product managers by creating user stories that fulfill user requirements to help better understand the problem, ensured testing of the user stories alongside implemented features, and the acquisition of continuous reviews from the clients and product manager.",
+      "Implemented Redux data stores to facilitate data sharing between components.",
       "Participated in daily stand-ups with the remote team to keep the team updated and in contact with the client and product manager.",
       "Worked with backend developers to maintain and document the created endpoints using Postman.",
-    ],
-  },
-  {
-    company: "Zinzo – Ecommerce Performance Optimisation",
-    position: "Web Developer - Internship",
-    duration: "12/2023 - 03/2024",
-    location: "Remote",
-    responsibilities: [
-      "Collaborated with a remote team of 6 to implement an interactive map for an internal project using LeafLet to help users find car shops more easily in Duhok, Iraq.",
+      "Collaborated with a remote team of 6 to implement an interactive map for an internal project using LeafLet to help users find car shops more easily in Duhok, Iraq."
     ],
   },
 ]
