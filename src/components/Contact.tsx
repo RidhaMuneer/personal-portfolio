@@ -39,19 +39,6 @@ export default function Contact() {
                   </a>
                 </div>
               </motion.div>
-              <motion.div
-                className="flex items-center space-x-4"
-                whileHover={{ x: 10 }}
-                transition={{ type: "spring", stiffness: 300 }}
-              >
-                <FaPhone className="text-3xl text-blue-400" />
-                <div>
-                  <h3 className="text-xl font-semibold mb-1">Phone</h3>
-                  <a href="tel:+9647710881410" className="text-gray-300 hover:text-blue-400 transition duration-300">
-                    +964 771 088 1410
-                  </a>
-                </div>
-              </motion.div>
             </div>
             <div className="space-y-6">
               <motion.div
