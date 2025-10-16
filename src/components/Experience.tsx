@@ -8,7 +8,7 @@ const experiences = [
     company: "White Label Solutions",
     position: "Frontend Engineer",
     duration: "03/2025 - Present",
-    location: "Remote",
+    location: "Erbil",
     responsibilities: [
       "Developed and maintained React.js and Next.js applications with TypeScript, focusing on dashboards and showcase websites (e.g., Foton, Jac).",
       "Implemented Algolia Analytics and Firebase push notifications in an e-commerce dashboard, improving search analysis and user engagement.",
