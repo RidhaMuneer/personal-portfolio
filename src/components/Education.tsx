@@ -24,7 +24,7 @@ export default function Education() {
         >
           <div className="flex flex-col md:flex-row items-center md:items-start mb-8">
             <motion.div
-              className="w-28 h-28 md:w-32 md:h-32 bg-blue-500 rounded-full flex items-center justify-center mb-6 md:mb-0 md:mr-8"
+              className="min-w-28 min-h-28 md:min-w-32 md:min-h-32 bg-blue-500 rounded-full flex items-center justify-center mb-6 md:mb-0 md:mr-8"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
