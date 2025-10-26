@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa"
+import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa"
 
 export default function Contact() {
   return (
